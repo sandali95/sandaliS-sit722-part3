@@ -22,8 +22,6 @@ spec:
         ports:
         - containerPort: 8082
         env:
-        - name: PORT
-          value: "8082"
         - name: DATABASE_URL
           value: "postgresql://booksdb_uoqj_user:LCNvLkjcjMRuzIreNax4Yq54hUKNwwIe@dpg-cr9vqp23esus739ooan0-a.oregon-postgres.render.com/booksdb_uoqj"
 ---
@@ -63,8 +61,6 @@ spec:
         ports:
         - containerPort: 8081
         env:
-        - name: PORT
-          value: "8081"
         - name: DATABASE_URL
           value: "postgresql://booksdb_uoqj_user:LCNvLkjcjMRuzIreNax4Yq54hUKNwwIe@dpg-cr9vqp23esus739ooan0-a.oregon-postgres.render.com/booksdb_uoqj"  
 ---
